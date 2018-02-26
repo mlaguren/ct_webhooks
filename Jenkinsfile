@@ -5,6 +5,7 @@ pipeline {
         stage('Check Up') {
             steps {
                 sh "git status"
+                sh "git branch"
             }
         }
     }
