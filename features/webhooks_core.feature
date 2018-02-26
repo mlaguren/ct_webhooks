@@ -1,7 +1,7 @@
 Feature:  
   As a service,
   I would like to process webhooks,
-  So that information is provided to cucumber trellis
+  So that information is provided to Cucumber Trellis
   
   Scenario:  I would like to process a request if a configuration file exists for the service
     Given I have a service configured
